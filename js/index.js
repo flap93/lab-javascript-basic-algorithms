@@ -6,10 +6,20 @@
 //1.3 Create a variable `hacker2` with the navigator's name.
 	//1.4 Print `"The navigator's name is YYYY"`.
 
+
+  // first option:
     let hacker1 = 'xxxx';
     console.log('the driver\'s name is ' +  hacker1 );
     let hacker2 = 'yyyy';
     console.log('The navigator\'s name is '  + hacker2 );
+
+    // second option:
+
+let hacker1 = "xxxx";
+console.log(`The driver\'s name is ${hacker1}`);
+
+let hacker2 = "yyyy";
+console.log(`The navigator\'s name is ${hacker2}`);
     
     // Iteration 2: Conditionals
 
@@ -35,6 +45,18 @@
       default:
         console.log('Wow, you both have equally long names, XX characters!');
         break;}
+// ------------------------------------------  second option
+        let  longerName = "driver";
+
+        switch (longerName) {
+          case 'driver':
+            console.log('The driver has the longest name, it has XX characters');
+             break;
+          case 'navigator':
+          console.log('It seems that the navigator has the longest name, it has XX characters');
+          default:
+          console.log('Wow, you both have equally long names, XX characters!')
+        }
 
 
 // Iteration 3: Loops
